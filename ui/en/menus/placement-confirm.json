@@ -1,0 +1,215 @@
+{
+  "element": {
+    "type": "container",
+    "sourceTag": "div",
+    "children": [
+      {
+        "sourceTag": "button",
+        "type": "custom",
+        "children": [
+          {
+            "sourceTag": "checkicon",
+            "type": "custom",
+            "children": [],
+            "properties": {
+              "color": "rgba(120, 220, 140, 0.98)",
+              "width": "22px",
+              "height": "22px"
+            },
+            "dataUid": "uid-3"
+          }
+        ],
+        "properties": {
+          "id": "placement-confirm-button",
+          "class": "confirm-button"
+        },
+        "dataUid": "uid-2"
+      },
+      {
+        "type": "container",
+        "sourceTag": "div",
+        "children": [
+          {
+            "sourceTag": "span",
+            "type": "custom",
+            "children": [
+              "Look around you to find a good spot to anchor the phonograph."
+            ],
+            "properties": {
+              "class": "body-text"
+            },
+            "dataUid": "uid-5"
+          }
+        ],
+        "properties": {
+          "class": "card"
+        },
+        "dataUid": "uid-4"
+      }
+    ],
+    "properties": {
+      "id": "panel-root",
+      "class": "outer-layer"
+    },
+    "dataUid": "uid-1"
+  },
+  "classes": {
+    "outer-layer": {
+      "content": {
+        "width": "300px",
+        "maxWidth": "300px",
+        "display": "flex",
+        "flexDirection": "column-reverse",
+        "alignItems": "flex-end",
+        "paddingTop": "8px",
+        "paddingRight": "8px"
+      }
+    },
+    "card": {
+      "content": {
+        "width": "280px",
+        "maxWidth": "280px",
+        "alignSelf": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "flex-start",
+        "borderRadius": 22,
+        "backgroundColor": "rgba(20, 20, 24, 0.92)",
+        "borderWidth": "1px",
+        "borderColor": "rgba(255, 255, 255, 0.18)",
+        "paddingTop": "18px",
+        "paddingBottom": "18px",
+        "paddingLeft": "18px",
+        "paddingRight": "18px"
+      }
+    },
+    "body-text": {
+      "content": {
+        "fontSize": "13px",
+        "fontWeight": "600",
+        "color": "rgba(255, 255, 255, 0.92)",
+        "lineHeight": "1.5",
+        "textAlign": "left",
+        "margin": "0"
+      }
+    },
+    "confirm-button": {
+      "content": {
+        "width": "44px",
+        "height": "44px",
+        "minWidth": "44px",
+        "minHeight": "44px",
+        "borderRadius": 22,
+        "display": "flex",
+        "flexDirection": "row",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingTop": "12px",
+        "paddingBottom": "12px",
+        "paddingLeft": "12px",
+        "paddingRight": "12px",
+        "backgroundColor": "rgb(24, 24, 26)",
+        "borderWidth": "1px",
+        "borderColor": "rgba(255, 255, 255, 0.35)",
+        "marginTop": "-21px",
+        "marginRight": "-6px",
+        "hover": {
+          "backgroundColor": "rgba(24, 24, 26, 0.96)",
+          "borderColor": "rgba(255, 255, 255, 0.44)"
+        }
+      }
+    }
+  },
+  "ranges": {
+    "outer-layer": {
+      "start": {
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "line": 1,
+        "column": 14
+      }
+    },
+    "card": {
+      "start": {
+        "line": 11,
+        "column": 2
+      },
+      "end": {
+        "line": 11,
+        "column": 7
+      }
+    },
+    "body-text": {
+      "start": {
+        "line": 28,
+        "column": 2
+      },
+      "end": {
+        "line": 28,
+        "column": 12
+      }
+    },
+    "confirm-button": {
+      "start": {
+        "line": 37,
+        "column": 2
+      },
+      "end": {
+        "line": 37,
+        "column": 17
+      }
+    },
+    "uid-1": {
+      "start": {
+        "line": 64,
+        "column": 0
+      },
+      "end": {
+        "line": 71,
+        "column": 6
+      }
+    },
+    "uid-2": {
+      "start": {
+        "line": 65,
+        "column": 2
+      },
+      "end": {
+        "line": 67,
+        "column": 11
+      }
+    },
+    "uid-3": {
+      "start": {
+        "line": 66,
+        "column": 4
+      },
+      "end": {
+        "line": 67,
+        "column": 2
+      }
+    },
+    "uid-4": {
+      "start": {
+        "line": 68,
+        "column": 2
+      },
+      "end": {
+        "line": 70,
+        "column": 8
+      }
+    },
+    "uid-5": {
+      "start": {
+        "line": 69,
+        "column": 4
+      },
+      "end": {
+        "line": 69,
+        "column": 96
+      }
+    }
+  }
+}

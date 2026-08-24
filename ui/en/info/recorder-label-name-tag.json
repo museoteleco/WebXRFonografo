@@ -1,0 +1,137 @@
+{
+  "element": {
+    "type": "container",
+    "sourceTag": "div",
+    "children": [
+      {
+        "type": "container",
+        "sourceTag": "div",
+        "children": [
+          {
+            "sourceTag": "span",
+            "type": "custom",
+            "children": [
+              "Recorder"
+            ],
+            "properties": {
+              "class": "name-label"
+            },
+            "dataUid": "uid-3"
+          }
+        ],
+        "properties": {
+          "class": "name-tag"
+        },
+        "dataUid": "uid-2"
+      }
+    ],
+    "properties": {
+      "id": "panel-root",
+      "class": "outer-layer"
+    },
+    "dataUid": "uid-1"
+  },
+  "classes": {
+    "outer-layer": {
+      "content": {
+        "width": "140px",
+        "maxWidth": "140px",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "center",
+        "paddingTop": "8px",
+        "paddingRight": "8px"
+      }
+    },
+    "name-tag": {
+      "content": {
+        "width": "120px",
+        "maxWidth": "120px",
+        "alignSelf": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "borderRadius": 12,
+        "backgroundColor": "rgba(20, 20, 24, 0.92)",
+        "borderWidth": "1px",
+        "borderColor": "rgba(255, 255, 255, 0.18)",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "paddingLeft": "10px",
+        "paddingRight": "10px"
+      }
+    },
+    "name-label": {
+      "content": {
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "color": "rgba(255, 255, 255, 0.96)",
+        "lineHeight": "1.15",
+        "textAlign": "center"
+      }
+    }
+  },
+  "ranges": {
+    "outer-layer": {
+      "start": {
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "line": 1,
+        "column": 14
+      }
+    },
+    "name-tag": {
+      "start": {
+        "line": 11,
+        "column": 2
+      },
+      "end": {
+        "line": 11,
+        "column": 11
+      }
+    },
+    "name-label": {
+      "start": {
+        "line": 29,
+        "column": 2
+      },
+      "end": {
+        "line": 29,
+        "column": 13
+      }
+    },
+    "uid-1": {
+      "start": {
+        "line": 38,
+        "column": 0
+      },
+      "end": {
+        "line": 42,
+        "column": 6
+      }
+    },
+    "uid-2": {
+      "start": {
+        "line": 39,
+        "column": 2
+      },
+      "end": {
+        "line": 41,
+        "column": 8
+      }
+    },
+    "uid-3": {
+      "start": {
+        "line": 40,
+        "column": 4
+      },
+      "end": {
+        "line": 40,
+        "column": 44
+      }
+    }
+  }
+}

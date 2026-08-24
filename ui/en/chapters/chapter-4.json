@@ -1,0 +1,255 @@
+{
+  "element": {
+    "type": "container",
+    "sourceTag": "div",
+    "children": [
+      {
+        "sourceTag": "button",
+        "type": "custom",
+        "children": [
+          {
+            "sourceTag": "arrowrighticon",
+            "type": "custom",
+            "children": [],
+            "properties": {
+              "color": "rgba(255, 255, 255, 0.95)"
+            },
+            "dataUid": "uid-3"
+          }
+        ],
+        "properties": {
+          "id": "playback-listen-intro-button",
+          "class": "next-button"
+        },
+        "dataUid": "uid-2"
+      },
+      {
+        "type": "container",
+        "sourceTag": "div",
+        "children": [
+          {
+            "sourceTag": "span",
+            "type": "custom",
+            "children": [
+              "Chapter 4: Playback"
+            ],
+            "properties": {
+              "class": "title-label"
+            },
+            "dataUid": "uid-5"
+          },
+          {
+            "sourceTag": "span",
+            "type": "custom",
+            "children": [
+              "Well done, everything is now in place, and you can play your recording."
+            ],
+            "properties": {
+              "class": "body-text"
+            },
+            "dataUid": "uid-6"
+          }
+        ],
+        "properties": {
+          "class": "card"
+        },
+        "dataUid": "uid-4"
+      }
+    ],
+    "properties": {
+      "id": "panel-root",
+      "class": "outer-layer"
+    },
+    "dataUid": "uid-1"
+  },
+  "classes": {
+    "outer-layer": {
+      "content": {
+        "width": "300px",
+        "maxWidth": "300px",
+        "display": "flex",
+        "flexDirection": "column-reverse",
+        "alignItems": "flex-end",
+        "paddingTop": "8px",
+        "paddingRight": "8px"
+      }
+    },
+    "next-button": {
+      "content": {
+        "width": "44px",
+        "height": "44px",
+        "minWidth": "44px",
+        "minHeight": "44px",
+        "borderRadius": 22,
+        "display": "flex",
+        "flexDirection": "row",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingTop": "12px",
+        "paddingBottom": "12px",
+        "paddingLeft": "12px",
+        "paddingRight": "12px",
+        "backgroundColor": "rgb(24, 24, 26)",
+        "borderWidth": "1px",
+        "borderColor": "rgba(255, 255, 255, 0.35)",
+        "marginTop": "-21px",
+        "marginRight": "-6px",
+        "hover": {
+          "backgroundColor": "rgba(24, 24, 26, 0.96)",
+          "borderColor": "rgba(255, 255, 255, 0.44)"
+        }
+      }
+    },
+    "card": {
+      "content": {
+        "width": "280px",
+        "maxWidth": "280px",
+        "alignSelf": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "flex-start",
+        "borderRadius": 22,
+        "backgroundColor": "rgba(20, 20, 24, 0.92)",
+        "borderWidth": "1px",
+        "borderColor": "rgba(255, 255, 255, 0.18)",
+        "paddingTop": "18px",
+        "paddingBottom": "18px",
+        "paddingLeft": "18px",
+        "paddingRight": "18px"
+      }
+    },
+    "title-label": {
+      "content": {
+        "fontSize": "10px",
+        "fontWeight": "600",
+        "color": "rgba(255, 255, 255, 0.62)",
+        "lineHeight": "1.2",
+        "textAlign": "left",
+        "margin": "0",
+        "marginBottom": "6px"
+      }
+    },
+    "body-text": {
+      "content": {
+        "fontSize": "13px",
+        "fontWeight": "600",
+        "color": "rgba(255, 255, 255, 0.92)",
+        "lineHeight": "1.5",
+        "textAlign": "left",
+        "margin": "0"
+      }
+    }
+  },
+  "ranges": {
+    "outer-layer": {
+      "start": {
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "line": 1,
+        "column": 14
+      }
+    },
+    "next-button": {
+      "start": {
+        "line": 11,
+        "column": 2
+      },
+      "end": {
+        "line": 11,
+        "column": 14
+      }
+    },
+    "card": {
+      "start": {
+        "line": 37,
+        "column": 2
+      },
+      "end": {
+        "line": 37,
+        "column": 7
+      }
+    },
+    "title-label": {
+      "start": {
+        "line": 54,
+        "column": 2
+      },
+      "end": {
+        "line": 54,
+        "column": 14
+      }
+    },
+    "body-text": {
+      "start": {
+        "line": 64,
+        "column": 2
+      },
+      "end": {
+        "line": 64,
+        "column": 12
+      }
+    },
+    "uid-1": {
+      "start": {
+        "line": 75,
+        "column": 0
+      },
+      "end": {
+        "line": 83,
+        "column": 6
+      }
+    },
+    "uid-2": {
+      "start": {
+        "line": 76,
+        "column": 2
+      },
+      "end": {
+        "line": 78,
+        "column": 11
+      }
+    },
+    "uid-3": {
+      "start": {
+        "line": 77,
+        "column": 4
+      },
+      "end": {
+        "line": 78,
+        "column": 2
+      }
+    },
+    "uid-4": {
+      "start": {
+        "line": 79,
+        "column": 2
+      },
+      "end": {
+        "line": 82,
+        "column": 8
+      }
+    },
+    "uid-5": {
+      "start": {
+        "line": 80,
+        "column": 4
+      },
+      "end": {
+        "line": 80,
+        "column": 56
+      }
+    },
+    "uid-6": {
+      "start": {
+        "line": 81,
+        "column": 4
+      },
+      "end": {
+        "line": 81,
+        "column": 106
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "element": {
+    "type": "container",
+    "sourceTag": "div",
+    "children": [
+      {
+        "sourceTag": "p",
+        "type": "custom",
+        "children": [
+          "Carro de grabación"
+        ],
+        "properties": {
+          "class": "title-label"
+        },
+        "dataUid": "uid-2"
+      },
+      {
+        "sourceTag": "p",
+        "type": "custom",
+        "children": [
+          "Desplaza el cabezal de grabación a lo largo del cilindro en rotación"
+        ],
+        "properties": {
+          "class": "body-text"
+        },
+        "dataUid": "uid-3"
+      }
+    ],
+    "properties": {
+      "id": "panel-root",
+      "class": "info-tag"
+    },
+    "dataUid": "uid-1"
+  },
+  "classes": {
+    "info-tag": {
+      "content": {
+        "width": "200px",
+        "maxWidth": "200px",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+        "borderRadius": 12,
+        "backgroundColor": "rgba(20, 20, 24, 0.92)",
+        "borderWidth": "1px",
+        "borderColor": "rgba(255, 255, 255, 0.18)",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "paddingLeft": "10px",
+        "paddingRight": "10px"
+      }
+    },
+    "title-label": {
+      "content": {
+        "fontSize": "10px",
+        "fontWeight": "600",
+        "color": "rgba(255, 255, 255, 0.62)",
+        "lineHeight": "1.2",
+        "textAlign": "left",
+        "margin": "0",
+        "marginBottom": "4px"
+      }
+    },
+    "body-text": {
+      "content": {
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "color": "rgba(255, 255, 255, 0.96)",
+        "lineHeight": "1.15",
+        "textAlign": "left",
+        "margin": "0"
+      }
+    }
+  },
+  "ranges": {
+    "info-tag": {
+      "start": {
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "line": 1,
+        "column": 11
+      }
+    },
+    "title-label": {
+      "start": {
+        "line": 18,
+        "column": 2
+      },
+      "end": {
+        "line": 18,
+        "column": 14
+      }
+    },
+    "body-text": {
+      "start": {
+        "line": 28,
+        "column": 2
+      },
+      "end": {
+        "line": 28,
+        "column": 12
+      }
+    },
+    "uid-1": {
+      "start": {
+        "line": 39,
+        "column": 0
+      },
+      "end": {
+        "line": 42,
+        "column": 6
+      }
+    },
+    "uid-2": {
+      "start": {
+        "line": 40,
+        "column": 2
+      },
+      "end": {
+        "line": 40,
+        "column": 47
+      }
+    },
+    "uid-3": {
+      "start": {
+        "line": 41,
+        "column": 2
+      },
+      "end": {
+        "line": 41,
+        "column": 95
+      }
+    }
+  }
+}

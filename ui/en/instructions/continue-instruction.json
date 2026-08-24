@@ -1,0 +1,96 @@
+{
+  "element": {
+    "type": "container",
+    "sourceTag": "div",
+    "children": [
+      {
+        "sourceTag": "span",
+        "type": "custom",
+        "children": [
+          "Press the \"arrow button\" to continue."
+        ],
+        "properties": {
+          "class": "label"
+        },
+        "dataUid": "uid-2"
+      }
+    ],
+    "properties": {
+      "id": "panel-root",
+      "class": "panel"
+    },
+    "dataUid": "uid-1"
+  },
+  "classes": {
+    "panel": {
+      "content": {
+        "width": "176px",
+        "maxWidth": "176px",
+        "minWidth": "176px",
+        "display": "flex",
+        "flexDirection": "row",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "borderRadius": 10,
+        "backgroundColor": "rgb(24, 24, 26)",
+        "borderWidth": "1px",
+        "borderColor": "rgba(255, 255, 255, 0.35)",
+        "paddingTop": "8px",
+        "paddingBottom": "8px",
+        "paddingLeft": "12px",
+        "paddingRight": "12px"
+      }
+    },
+    "label": {
+      "content": {
+        "fontSize": "9px",
+        "fontWeight": "600",
+        "color": "rgba(255, 255, 255, 0.92)",
+        "lineHeight": "1.35",
+        "textAlign": "center"
+      }
+    }
+  },
+  "ranges": {
+    "panel": {
+      "start": {
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "line": 1,
+        "column": 8
+      }
+    },
+    "label": {
+      "start": {
+        "line": 19,
+        "column": 2
+      },
+      "end": {
+        "line": 19,
+        "column": 8
+      }
+    },
+    "uid-1": {
+      "start": {
+        "line": 29,
+        "column": 0
+      },
+      "end": {
+        "line": 31,
+        "column": 6
+      }
+    },
+    "uid-2": {
+      "start": {
+        "line": 30,
+        "column": 2
+      },
+      "end": {
+        "line": 30,
+        "column": 66
+      }
+    }
+  }
+}
