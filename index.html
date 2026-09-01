@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>iwsdk-phonograph</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: system-ui, sans-serif;
+        background: #f4f5f7;
+      }
+
+      html,
+      body,
+      #scene-container {
+        width: 100%;
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+
+      #launch-screen {
+        position: fixed;
+        z-index: 10;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        box-sizing: border-box;
+        padding: clamp(1rem, 3vw, 2rem);
+        overflow: hidden;
+        pointer-events: none;
+        background:
+          radial-gradient(circle at 50% 20%, #ffffff 0, #f4f5f7 58%, #e7e9ed 100%);
+        opacity: 1;
+        transition: opacity 240ms ease, visibility 240ms ease;
+      }
+
+      #launch-screen[hidden] {
+        display: none;
+      }
+
+      #launch-screen.is-hidden {
+        visibility: hidden;
+        opacity: 0;
+      }
+
+      .launch-logos {
+        display: grid;
+        width: min(78vw, 34rem);
+        max-height: 62dvh;
+        gap: clamp(1rem, 2.5dvh, 1.75rem);
+      }
+
+      .launch-logo {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        height: auto;
+        margin-inline: auto;
+        object-fit: contain;
+      }
+
+      .launch-logo--etsit {
+        width: min(100%, 20rem);
+        max-height: 14dvh;
+      }
+
+      .launch-logo--upv {
+        width: min(100%, 28rem);
+        max-height: 22dvh;
+      }
+
+      .launch-partners {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        gap: clamp(1rem, 2.5dvh, 1.75rem);
+        width: min(100%, 28rem);
+        margin-inline: auto;
+      }
+
+      .launch-partners .launch-logo {
+        max-height: 7dvh;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        #launch-screen {
+          transition: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main id="launch-screen" aria-label="Entidades colaboradoras">
+      <div class="launch-logos">
+        <img
+          class="launch-logo launch-logo--etsit"
+          src="./textures/etsit.png"
+          alt="Escuela Técnica Superior de Ingeniería de Telecomunicación"
+        />
+        <img
+          class="launch-logo launch-logo--upv"
+          src="./textures/fondo.png"
+          alt="Universitat Politècnica de València, Área de Fondo de Arte y Patrimonio"
+        />
+        <div class="launch-partners">
+          <img
+            class="launch-logo launch-logo--vms"
+            src="./textures/vms.png"
+            alt="Museo de la Telecomunicación Vicente Miralles Segarra"
+          />
+          <img
+            class="launch-logo launch-logo--museus"
+            src="./textures/museus.png"
+            alt="Museus UPV"
+          />
+        </div>
+      </div>
+    </main>
+    <div id="scene-container"></div>
+    <script type="module" src="/src/index.ts"></script>
+  </body>
+</html>

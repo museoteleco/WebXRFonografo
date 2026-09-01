@@ -1,0 +1,115 @@
+<style>
+  .container {
+    width: 260px;
+    max-width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 22px;
+    background-color: rgba(20, 20, 24, 0.92);
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.18);
+    padding-top: 20px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .title {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.96);
+    margin-bottom: 14px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .lang-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+
+  .lang-button {
+    width: 52px;
+    height: 52px;
+    min-width: 52px;
+    min-height: 52px;
+    border-radius: 26px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.18);
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  .lang-button:hover {
+    background-color: rgba(255, 255, 255, 0.16);
+  }
+
+  .lang-button.selected {
+    border-color: rgba(255, 255, 255, 0.92);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .flag {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  }
+
+  .menu-button {
+    width: 100%;
+    margin-top: 4px;
+    border-radius: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.14);
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.18);
+  }
+
+  .menu-button:hover {
+    background-color: rgba(255, 255, 255, 0.24);
+  }
+
+  .menu-button-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.96);
+    line-height: 1.2;
+  }
+
+</style>
+
+<div id="panel-root" class="container">
+  <span id="welcome-title-en" class="title" display="none">Phonograph</span>
+  <span id="welcome-title-es" class="title">Fonógrafo</span>
+  <div class="lang-row">
+    <button id="welcome-lang-es" class="lang-button selected">
+      <Image class="flag" src="./textures/spain.png" width="40px" height="40px" objectFit="cover" keepAspectRatio="false" />
+    </button>
+    <button id="welcome-lang-en" class="lang-button">
+      <Image class="flag" src="./textures/uk.png" width="40px" height="40px" objectFit="cover" keepAspectRatio="false" />
+    </button>
+  </div>
+  <button id="welcome-begin-button" class="menu-button">
+    <span id="welcome-start-en" class="menu-button-label" display="none">Start</span>
+    <span id="welcome-start-es" class="menu-button-label">Empezar</span>
+  </button>
+</div>

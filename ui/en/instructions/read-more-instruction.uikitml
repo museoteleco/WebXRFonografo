@@ -1,0 +1,32 @@
+<style>
+  .panel {
+    width: 176px;
+    max-width: 176px;
+    min-width: 176px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(24, 24, 26);
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.35);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .label {
+    font-size: 9px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.92);
+    line-height: 1.35;
+    text-align: center;
+  }
+
+</style>
+
+<div id="panel-root" class="panel">
+  <span class="label">Press the "question mark" button to read more.</span>
+</div>

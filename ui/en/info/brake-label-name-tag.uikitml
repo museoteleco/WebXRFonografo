@@ -1,0 +1,43 @@
+<style>
+  .outer-layer {
+    width: 140px;
+    max-width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8px;
+    padding-right: 8px;
+  }
+
+  .name-tag {
+    width: 120px;
+    max-width: 120px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: rgba(20, 20, 24, 0.92);
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.18);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .name-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.96);
+    line-height: 1.15;
+    text-align: center;
+  }
+</style>
+
+<div id="panel-root" class="outer-layer">
+  <div class="name-tag">
+    <span class="name-label">Brake</span>
+  </div>
+</div>

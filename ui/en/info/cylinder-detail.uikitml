@@ -1,0 +1,43 @@
+<style>
+  .info-tag {
+    width: 200px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: rgba(20, 20, 24, 0.92);
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.18);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .title-label {
+    font-size: 10px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.62);
+    line-height: 1.2;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 4px;
+  }
+
+  .body-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.96);
+    line-height: 1.15;
+    text-align: left;
+    margin: 0;
+  }
+
+</style>
+
+<div id="panel-root" class="info-tag">
+  <p class="title-label">Cylinder</p>
+  <p class="body-text">Recording medium made out of wax.</p>
+</div>
